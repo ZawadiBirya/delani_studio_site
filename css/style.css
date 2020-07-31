@@ -19,7 +19,7 @@ body{
 }
 .section1{
     background: url(assets/h_img.jpg) no-repeat;
-    
+
 }
 .logo{
     margin-left: auto;
@@ -35,11 +35,12 @@ body{
     color: black;
     text-align: center;
     background: transparent;
-    font-size-adjust: auto;  
-    
+    font-size-adjust: auto;
+
 }
 .section3{
     height: 300px;
+		text-align: center;
     background: url(assets/s_image.jpg) no-repeat;
 }
 .third-text{
@@ -47,12 +48,60 @@ body{
     background: transparent;
     color: white;
 }
-.fourth-text{
-    text-align: center;
-    color: white;
-    font-weight: 200;
-}
 .section4{
     background: whitesmoke;
-    height:auto;
+		text-align: center;
+ }
+
+.fourth-text{
+    text-align: center;
+    color: black;
+    font-weight: 200;
+}
+
+
+.section5{
+	height: 300px;
+	text-align: center;
+ }
+
+ .fifth-text{
+     text-align: center;
+     color: black;
+		 font-weight: 200;
+ }
+
+ .section6{
+ 	height: 300px;
+ 	text-align: center;
+	background: url(assets/c_image.jpg) no-repeat;
+  }
+
+	.sixth-text{
+	    text-align: center;
+	    background: transparent;
+	    color: black;
+	}
+
+.section7{
+	background: whitesmoke;
+	height: 100px;
+	text-align: center;
+}
+
+.seventh-text{
+    text-align: center;
+    background: transparent;
+    color: black;
+}
+.section8{
+	background: whitesmoke;
+	height: 100px;
+	text-align: center;
+}
+
+.eigth-text{
+    text-align: center;
+    background: transparent;
+    color: black;
 }
