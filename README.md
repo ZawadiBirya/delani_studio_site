@@ -1,15 +1,5 @@
 # Delani Studio
-
-## Authors
-- [iantheninja](https://github.com/iantheninja)
-
-## Project setup instructions
-To start using this project use the following commands:
-
-- `git clone https://github.com/moringaschool/hello-world.git`
-- `cd hello-world`
-- `atom .`
-- `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
+This is a start up website.
 
 ## License info
 MIT License
