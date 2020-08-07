@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	height: auto;
-    background: black;
+  background: white;
 }
 .container{
 	margin: inherit;
@@ -29,7 +29,7 @@ body{
 }
 .section2{
     background: whitesmoke;
-    height: 300px;
+    height: 250px;
 }
 .second-text{
     color: black;
@@ -39,7 +39,7 @@ body{
 
 }
 .section3{
-    height: 300px;
+    height: 350px;
 		text-align: center;
     background: url(assets/s_image.jpg) no-repeat;
 }
@@ -50,20 +50,52 @@ body{
 }
 .section4{
     background: whitesmoke;
-		text-align: center;
+		vertical-align:text-top;
  }
 
 .fourth-text{
     text-align: center;
     color: black;
     font-weight: 200;
+		text-align: middle;
+}
+
+.design{
+	height: 100px;
+	float: left;
+	margin: 20px;
+	padding-left: 300px;
+}
+
+
+.dev{
+height: 100px;
+float: left;
+margin: 20px;
+padding-left: 300px;
+}
+
+.product{
+position: center;
+height: 100px;
+float: left;
+margin: 20px;
+padding-left: 300px;
+}
+
+.absolute img{
+	position: relative;
 }
 
 
 .section5{
-	height: 300px;
+	height: 800px;
 	text-align: center;
  }
+
+  .section5 img{
+  	height: 200px;
+   }
 
  .fifth-text{
      text-align: center;
@@ -71,22 +103,96 @@ body{
 		 font-weight: 200;
  }
 
- .section6{
- 	height: 300px;
- 	text-align: center;
-	background: url(assets/c_image.jpg) no-repeat;
-  }
+ .container{
+ position: relative;
+ margin: 50px;
+ padding-left:50px;
+ float: left;
+	 }
+
+.overlay{
+	position: absolute;
+	transition: all .3s ease;
+	opacity: 0;
+	background-color: grey;
+}
+.container:hover .overlayLeft{
+opacity: 1;
+}
+
+.overlayLeft{
+	height: 100%;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+
+	#work1{
+		margin: 80px;
+	  padding-left:50px;
+	  float: left;
+	}
+
+	#work2{
+		margin: 80px;
+		padding-left:80px;
+		float: left;
+	}
+
+	#work3{
+		margin: 80px;
+		padding-left:130px;
+		float: left;
+	}
+
+	#work4{
+		margin: 80px;
+		padding-left:160px;
+		float: left;
+	}
+
+		 #work5{
+ 			margin: -80px;
+ 		  padding-left:310px;
+ 		  float: left;
+ 		}
+
+ 		#work6{
+ 			margin: -80px;
+ 			padding-left:450px;
+ 			float: left;
+ 		}
+
+ 		#work7{
+ 			margin: -80px;
+ 			padding-left:500px;
+ 			float: left;
+ 		}
+
+ 		#work8{
+ 			margin: -80px;
+ 			padding-left:480px;
+ 			float: left;
+ 		}
+
+		.section6{
+			background: url(assets/c_image.jpg) no-repeat;
+			height: 400px;
+			text-align: center;
+		}
 
 	.sixth-text{
 	    text-align: center;
 	    background: transparent;
+			maco
 	    color: black;
 	}
 
 .section7{
-	background: whitesmoke;
-	height: 100px;
-	text-align: center;
+	background: url(assets/h_img.jpg) no-repeat;
+	height: 700px;
+	float: left;
+	margin: 300%;
 }
 
 .seventh-text{
@@ -104,4 +210,23 @@ body{
     text-align: center;
     background: transparent;
     color: black;
+}
+
+img{
+	align-content: center;
+}
+
+form{
+	background:transparent;
+}
+
+.socialicons{
+	height:10px;
+	margin: -5px;
+	padding-left:400px;
+	float: left;
+}
+
+.footer{
+	height:100px;
 }
